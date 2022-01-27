@@ -7,7 +7,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test:uvu": "uvu -r tsm test --ignore fixtures",
-    "test": "nyc npm run test:uvu",
+    "test": "npm run test:uvu",
+    "cover": "nyc npm run test:uvu",
     "start": "tsc ./src/index.ts",
     "build": "tsc",
     "prepare": "husky install"
@@ -28,6 +29,7 @@
     "@types/node": "^17.0.12",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "commitlint": "^16.1.0",
+    "coveralls": "^3.1.1",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
