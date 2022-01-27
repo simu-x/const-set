@@ -1,3 +1,6 @@
+[![Build Status](https://app.travis-ci.com/simu-x/const-set.svg?branch=main)](https://app.travis-ci.com/simu-x/const-set)
+[![Coverage Status](https://coveralls.io/repos/github/simu-x/const-set/badge.svg?branch=main)](https://coveralls.io/github/simu-x/const-set?branch=main)
+
 # const-set
 
 A Typescript/Javascript utility for making Sets of constant strings
