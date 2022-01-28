@@ -13,6 +13,9 @@
     "build": "tsc",
     "prepare": "husky install"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simu-x/const-set.git"
